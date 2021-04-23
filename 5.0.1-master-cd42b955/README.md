@@ -10,8 +10,14 @@ or may not contain more than is necessary.
 
 - *html/index.html*: HTML documentation can be accessed from here.
 - *AssimpDoc.chm*: A Windows HTML Help version.
+- *AssimpDoc.qch*: A Qt Help System version. Add to Creator in
+  Tools → Options → Help for F1 context help.
 - *Doxyfile*: The Doxygen file used as input (see below).
 - *LICENSE*, *CREDITS*: Assimp's legal stuff.
+
+Note: The Qt docs are a little broken, since the docs weren't originally
+designed for Qt Help and doxygen just kind of blindly generates the QCH,
+but they're useable, at least.
 
 ## Where Did This Come From?
 
