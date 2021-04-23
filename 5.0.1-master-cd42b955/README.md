@@ -52,4 +52,4 @@ the Doxygen configuration file:
 
 ## Why?
 
-The original docs seemed very old and I did not trust them. That's about it.
+The original docs seemed very old and I did not trust them. Also the assimp-docs project has a bunch of prerequisites and I wasn't satisifed with the output. For me, it's easier to just use doxygen on the assimp source tree.
